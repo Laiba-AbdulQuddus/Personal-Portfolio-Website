@@ -50,3 +50,10 @@ function toggleTooltip(type) {
     const tooltip = document.getElementById(`${type}Tooltip`);
     tooltip.style.display = tooltip.style.display === 'block' ? 'none' : 'block';
 }
+
+document.getElementById('visitGithub').onclick = function() {
+    window.location.href = 'https://github.com/Laiba-AbdulQuddus/';
+};
+document.getElementById('downloadResume').onclick = function() {
+    document.getElementById('resumeLink').click();
+};
